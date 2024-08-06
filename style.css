@@ -498,8 +498,9 @@ footer p {
     flex-direction: column;
     height: auto;
   }
-  
+
   .about-pic{
-    display:none;
+    width: 150%;
+    height: 150%;
   }
 }
