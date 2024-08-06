@@ -315,7 +315,6 @@ section {
 .about-content {
   display: flex;
   justify-content: center;
-  align-items: center;
   align-items: flex-start;
   gap: 1rem;
   position: relative;
@@ -333,10 +332,18 @@ section {
   display: flex;
 }
 
+.section__pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto 0;
+}
+
 .about-pic {
   border-radius: 2rem;
-  width: 20rem;
-  height: 25rem;
+  max-width: 100%; /* Make it responsive */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .arrow {
@@ -358,12 +365,6 @@ section {
 .section-container {
   gap: 2rem;
   height: 80%;
-}
-
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
