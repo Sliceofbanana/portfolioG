@@ -342,7 +342,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-  max-width: 100%; /* Make it responsive */
+  max-width: 50%; /* Resize to 50% of original size */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -360,6 +360,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  line-height: 1.6; /* Increase line height for better readability */
 }
 
 .section-container {
