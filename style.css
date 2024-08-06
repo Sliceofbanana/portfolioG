@@ -494,6 +494,11 @@ footer p {
     font-size: 2rem;
   }
 
+  #about{
+    flex-direction: column;
+    height: auto;
+  }
+  
   .about-pic{
     display:none;
   }
