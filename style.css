@@ -201,13 +201,13 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 25rem;
+  width: 25rem;
   margin: auto 0;
 }
 
-.picfirst{
-  border: 5px solid black;
+.picfirst {
+  border: 0.3125rem solid black;
   border-radius: 50%;
 }
 
