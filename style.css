@@ -186,11 +186,6 @@ section {
   left: -10rem;
   right: -10rem;
   bottom: 0;
-  background-image: url('./assets/wavy.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: relative;
   z-index: 1;
 }
 
@@ -228,7 +223,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  margin-top: 3vw;
+  margin-top: 5vw;
 }
 
 .section__text__p2 {
