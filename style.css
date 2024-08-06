@@ -363,8 +363,8 @@ section {
 .section__pic-container {
   height: 400px;
   width: 400px;
-  margin: auto 0;
-  gap:2rem;
+  gap: 2rem;
+  margin-top: 0;
 }
 
 .text-container{
