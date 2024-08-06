@@ -335,8 +335,11 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-  width: 16.667vw;
-  height: 20.833vw;
+  padding: 1vw; 
+  box-sizing: border-box; 
+  width: 100%;
+  height: 100%;
+  object-fit: inherit;
 }
 
 .arrow {
