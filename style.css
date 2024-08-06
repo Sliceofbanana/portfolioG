@@ -163,8 +163,6 @@ section {
 
 /* PROFILE SECTION */
 
-/* PROFILE SECTION */
-
 #profile {
   display: flex;
   justify-content: center;
@@ -204,12 +202,9 @@ section {
 
 .section__pic-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto 0;
   width: 15rem;
   height: 15rem;
-  border-radius: 50%;
-  overflow: hidden; /* Ensure that any overflow content is hidden */
 }
 
 .section__text {
