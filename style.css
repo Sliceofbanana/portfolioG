@@ -335,9 +335,7 @@ section {
 .section__pic-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: auto 0;
+  align-items: flex-start;
 }
 
 .about-pic {
@@ -362,6 +360,10 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
   line-height: 1.6; /* Increase line height for better readability */
+}
+
+.text-container{
+  text-align: justify;
 }
 
 .section-container {
