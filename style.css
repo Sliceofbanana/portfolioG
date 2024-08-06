@@ -317,7 +317,7 @@ section {
   justify-content: center;
   align-items: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.5rem;
   position: relative;
   width: 100%;
   height: 100%;
@@ -337,7 +337,6 @@ section {
   border-radius: 2rem;
   width: 20rem;
   height: 25rem;
-  gap: 4rem;
 }
 
 .arrow {
@@ -365,6 +364,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  gap:2rem;
 }
 
 .text-container{
