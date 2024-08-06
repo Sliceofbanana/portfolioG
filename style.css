@@ -361,13 +361,13 @@ section {
 
 .section-container1 {
   gap: 2rem;
-  height: 80%;
+  height: 100%;
   flex-direction: column;
   height: auto;
 }
 
 .section__pic-container1 {
-  height: auto;
+  height: 100%;
   width: 100%;
   max-width: 400px;
   gap: 2rem;
