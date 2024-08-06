@@ -10,6 +10,16 @@
   #projects {
     height: fit-content;
   }
+  .background-container {
+    left: -10rem;
+    right: -10rem;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .section__pic-container,
+  .section__text {
+    z-index: 2;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,6 +54,15 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .background-container {
+    left: -7rem;
+    right: -7rem;
+    background-size: cover; /* Keep background size */
+  }
+  .section__pic-container,
+  .section__text {
+    z-index: 2;
   }
 }
 
@@ -99,5 +118,15 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .background-container {
+    left: -5rem;
+    right: -5rem;
+    background-size: contain; /* Adjusting background size */
+    background-attachment: scroll; /* Removing fixed background */
+  }
+  .section__pic-container,
+  .section__text {
+    z-index: 2;
   }
 }
