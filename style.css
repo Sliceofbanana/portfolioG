@@ -307,7 +307,7 @@ section {
 }
 
 .about-containers {
-  gap: 3rem;
+  gap: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -337,6 +337,7 @@ section {
   border-radius: 2rem;
   width: 20rem;
   height: 25rem;
+  margin-bottom: 4vw;
 }
 
 .arrow {
