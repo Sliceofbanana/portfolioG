@@ -497,6 +497,7 @@ footer p {
   #about{
     flex-direction: column;
     height: auto;
+    gap: 2rem;
   }
 
   .about-content{
