@@ -340,11 +340,7 @@ section {
   margin: auto 0;
 }
 
-.about-pic {
-  border-radius: 2rem;
-  max-width: 50%; /* Resize to 50% of original size */
-  height: auto; /* Maintain aspect ratio */
-}
+
 
 .arrow {
   position: absolute;
