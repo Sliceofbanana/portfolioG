@@ -314,7 +314,7 @@ section {
 
 .about-content {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 1rem;
   position: relative;
@@ -323,8 +323,9 @@ section {
 }
 
 .about-details-container {
-  justify-content: center;
+  display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .about-containers,
@@ -334,15 +335,17 @@ section {
 
 .section__pic-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
+  flex-direction: column;
 }
 
 .about-pic {
   border-radius: 2rem;
-  max-width: 50%;
+  width: 50%;
   height: auto;
-  align-self: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .arrow {
@@ -359,7 +362,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-  line-height: 1.6; /* Increase line height for better readability */
+  line-height: 1.6;
 }
 
 .text-container{
