@@ -203,8 +203,8 @@ section {
 .section__pic-container {
   display: flex;
   margin: auto 0;
-  width: 5rem;
-  height: 5rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .picfirst {
