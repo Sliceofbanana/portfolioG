@@ -343,12 +343,6 @@ section {
   object-fit: fill;
 }
 
-.arrow {
-  position: absolute;
-  right: -1.5rem;
-  bottom: 1.5rem;
-}
-
 .details-container {
   padding: 1.5rem;
   flex: 1;
