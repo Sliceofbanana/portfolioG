@@ -356,7 +356,7 @@ section {
 }
 
 .section-container {
-  gap: 2rem;
+  gap: 4rem;
   height: 80%;
 }
 
@@ -365,7 +365,6 @@ section {
   width: 400px;
   gap: 2rem;
   margin-top: 0;
-  margin-bottom: 1.5rem;
 }
 
 .text-container{
