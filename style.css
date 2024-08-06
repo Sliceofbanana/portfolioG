@@ -212,13 +212,6 @@ section {
   overflow: hidden; /* Ensure that any overflow content is hidden */
 }
 
-.picfirst {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* This will maintain the aspect ratio and ensure the image covers the container */
-  border-radius: 50%; /* Ensures the image itself is circular */
-}
-
 .section__text {
   align-self: center;
   text-align: center;
