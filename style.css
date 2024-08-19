@@ -412,6 +412,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-bottom: 50px;
 }
 
 .color-container {
@@ -433,6 +434,17 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.languages-oval {
+  background-color: #f0f0f0; 
+  color: #333; 
+  padding: 5px 15px; 
+  border-radius: 20px;
+  display: inline-block; 
+  margin-bottom: 10px; 
+  font-weight: bold; 
+  margin-left: 0;
 }
 
 /* CONTACT */

@@ -85,6 +85,7 @@
   .text-container {
     text-align: justify;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -177,8 +178,8 @@
   .background-container {
     left: -5rem;
     right: -5rem;
-    background-size: contain; /* Adjusting background size */
-    background-attachment: scroll; /* Removing fixed background */
+    background-size: contain;
+    background-attachment: scroll;
   }
   .section__pic-container,
   .section__text {
