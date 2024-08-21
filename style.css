@@ -203,10 +203,6 @@ section {
   align-items: center;
 }
 
-.section__pic-container img{
-  position: relative;
-}
-
 .picfirst {
   border: 0.5vw solid black;
   border-radius: 50%;
