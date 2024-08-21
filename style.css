@@ -552,15 +552,6 @@ footer p {
   }
 }
 
-.about-details-container .details-container {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.about-details-container .details-container:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
