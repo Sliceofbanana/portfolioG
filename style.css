@@ -529,3 +529,25 @@ footer p {
 .back-to-top:hover {
   background-color: #000000;
 }
+
+.trail {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #252525; 
+  border-radius: 50%;
+  pointer-events: none;
+  animation: fade 0.5s linear forwards;
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
