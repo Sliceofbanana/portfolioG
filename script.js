@@ -6,7 +6,17 @@ function toggleMenu() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  const sections = document.querySelectorAll('section');
   const navLinks = document.querySelectorAll('.nav-links a');
+
+  function updateActiveLink() {
+    let index = sections.length;
+
+    while(--index && window.scrollY + 50 < sections[index].offsetTop) {}
+
+    navLinks.forEach((link) => link.classList.remove('active'));
+    navLinks[index].classList.add('active');
+  }
 
   navLinks.forEach(link => {
     link.addEventListener('click', function(event) {
@@ -23,4 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  window.addEventListener('scroll', updateActiveLink);
+  updateActiveLink();
 });
+
