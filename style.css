@@ -166,7 +166,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  margin-bottom: 5rem;
   height: 80vh;
 }
 
@@ -309,6 +309,7 @@ section {
   position: relative;
   padding-top: 0;
   margin-top: 0;
+  margin-bottom: 5rem;
 }
 
 .about-containers {
@@ -378,6 +379,7 @@ section {
 
 #experience {
   position: relative;
+  margin-top: 5rem;
 }
 
 .experience-sub-title {
@@ -418,6 +420,7 @@ article .icon {
 #projects {
   position: relative;
   margin-bottom: 50px;
+  padding-top: 20rem;
 }
 
 .color-container {
@@ -465,6 +468,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  padding-top: 35rem;
 }
 
 .contact-info-upper-container {
@@ -503,6 +507,7 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  padding-top: 10rem;
 }
 
 footer p {
