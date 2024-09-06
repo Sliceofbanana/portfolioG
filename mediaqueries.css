@@ -199,4 +199,27 @@
   .project-details-container {
     grid-template-columns: 1fr;
   }
+  #desktop-nav {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .theme-toggle {
+    display: flex; /* Ensure it's visible in mobile */
+    align-items: center;
+    height: auto;
+  }
+
+  #theme-icon {
+    width: 1.5rem;  /* Adjust the size for mobile view */
+    height: 1.5rem; /* Adjust the size for mobile view */
+  }
 }

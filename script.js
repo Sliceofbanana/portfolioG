@@ -71,3 +71,29 @@ document.addEventListener('mousemove', function(e) {
       trail.remove();
   }, 500);
 });
+
+function toggleTheme() {
+  const body = document.body;
+  const themeIcon = document.getElementById("theme-icon");
+
+  body.classList.toggle("dark-mode");
+
+  if (body.classList.contains("dark-mode")) {
+    themeIcon.src = "./assets/moon.png";
+    themeIcon.style.filter = "invert(1)";
+    localStorage.setItem('theme', 'dark');
+  } else {
+    themeIcon.src = "./assets/sun.png";
+    themeIcon.style.filter = "invert(0)";
+    localStorage.setItem('theme', 'light');
+  }
+}
+
+window.onload = function() {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark') {
+    document.body.classList.add("dark-mode");
+    document.getElementById("theme-icon").src = "./assets/moon.png";
+    themeIcon.style.filter = "invert(1)";
+  }
+};
