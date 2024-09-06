@@ -92,6 +92,10 @@
     flex: 1 1 45%; 
     margin: 10px;
   }
+
+  .project-details-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -190,5 +194,9 @@
   .project-item {
     flex: 1 1 100%; 
     margin: 5px;
+  }
+
+  .project-details-container {
+    grid-template-columns: 1fr;
   }
 }
