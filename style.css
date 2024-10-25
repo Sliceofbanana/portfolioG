@@ -53,7 +53,7 @@ nav,
 
 nav {
   justify-content: space-around;
-  align-items: center-right;
+  align-items: center;
   height: 17vh;
   background:#ffff;
   z-index:999;
